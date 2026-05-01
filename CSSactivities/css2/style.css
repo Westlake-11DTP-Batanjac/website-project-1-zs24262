@@ -1,0 +1,14 @@
+h1 {
+    color: orange;
+    font-family: Georgia;
+    font-style: bold;
+}
+
+h2 {
+    color: yellow;
+    font-style: italic;
+}
+
+p {
+    color: blue;
+}
