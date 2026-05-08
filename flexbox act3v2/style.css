@@ -12,11 +12,7 @@ body {
 
 } 
 
-.label{
-    color: black;
-    margin: 0;
-    align-self: flex-start;
-}
+
 
 /* 1. LAYOUT STACK:  
 
@@ -44,10 +40,14 @@ header {
 
     /* STUDENT TASK: Initialize flex and align items */ 
     display: flex;
+    align-items: center;
 
 } 
 
-  
+#h1head{
+    margin-left: 100px;
+    font-size: xx-large;
+}
 
 .logo { 
 
@@ -58,13 +58,14 @@ header {
     border: 1px solid #777; 
 
     padding: 10px; 
+    margin-left: 50px;
 
     width: 100px;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-size: x-large;
 } 
 
   
@@ -78,6 +79,7 @@ nav {
     background-color: #a442a4;  
     display: flex;
     justify-content: center;
+    padding: 10px 0px;
 
 } 
 
@@ -87,8 +89,10 @@ nav {
     height: 70px;
 }
   
-nav h1, h2 {
-    margin: 0px
+nav p {
+    margin: 10px 0px;
+    font-size: x-large;
+
 }
 
 nav ul { 
@@ -147,8 +151,15 @@ nav ul li a {
     padding: 20px; 
 
     margin-bottom: 70px;
+    margin-top: 70px;
 
-} 
+
+}
+
+.content-box p {
+    margin: 10px 10px;
+    font-size: x-large;
+}
 
   
 
@@ -166,6 +177,9 @@ nav ul li a {
     align-items: center;
 } 
 
+.image-box p {
+    font-size: x-large;
+}
   
 
 /* 5. FOOTER:  
@@ -184,7 +198,6 @@ footer {
     flex-wrap: wrap;
 } 
 
-  
 
 .social-links { 
 
@@ -192,13 +205,18 @@ footer {
 
     color: white; 
 
-    padding: 10px 40px; 
+    padding: 0px 200px; 
 
     margin-top: 10px; 
+    
+    font-size: x-large;
 
     border: 1px solid #777; 
 
-    margin-left: 40%;
-    margin-right: 40%;
-
 } 
+#footerh1 {
+    font-size: x-large;
+    margin: 10px 30%;
+    margin-bottom: 30px;
+
+}
