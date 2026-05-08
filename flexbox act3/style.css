@@ -1,0 +1,32 @@
+html {
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+header {
+    margin: 0;
+    padding: 0;
+    background: #ffb0b0;
+}
+
+h2, h1{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    background: #a843ac;
+}
+
+.large {
+    background: #ab9d9d;
+}
+
+footer {
+    background: #b783ff;
+}
+
+#label {
+    color: black;
+}
