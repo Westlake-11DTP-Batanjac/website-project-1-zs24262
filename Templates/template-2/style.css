@@ -31,7 +31,7 @@ nav {
     position: sticky;
     top: 0;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     height: auto;
     width: 14vh;
     height: 100vh;
@@ -40,14 +40,15 @@ nav {
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 10%;
 }
 
-header ul li {
+nav ul li {
     display: inline;
-    margin-right: 20px;
     font-size: x-large;
 }
-header ul a {
+nav ul a {
     text-decoration: none;
     color: black;
 }
