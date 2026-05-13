@@ -3,6 +3,7 @@
     <head>
         <title>Template 4</title>
         <link rel="stylesheet" href="style.css">
+        <link javascript" src="script.js"></script>
     </head>
 
     
@@ -17,7 +18,16 @@
         <ul>
             <li><a href="#">Home</a></li>
             <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
+            <li>
+                <div class="dropdown">
+                    <button onclick="servicedown()" class="dropbtn">Services</button>
+                    <div id="servicedropdown" class="dropdown-content">
+                        <a href="#">Services</a>>
+                        <a href="#">Services</a>
+                        <a href="#">Services</a>
+                    </div>
+                </div>
+            </li>
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>

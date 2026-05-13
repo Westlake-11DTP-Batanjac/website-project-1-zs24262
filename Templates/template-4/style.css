@@ -93,3 +93,15 @@ main img {
     height: 84vh;
     background-color: rgba(0, 0, 0, 0.5);
 }
+
+
+
+.dropdown-content {
+    display: none;;
+}
+
+.dropbtn {
+    border: none;
+    font-size: x-large;
+    background-color: transparent;
+}
