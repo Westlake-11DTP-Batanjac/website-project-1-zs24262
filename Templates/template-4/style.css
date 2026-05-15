@@ -50,12 +50,16 @@ nav {
 
 nav ul {
     list-style-type: none;
-    
+    padding: 0;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin: 0 10px;
     font-size: x-large;
 }
 nav ul a {
@@ -97,11 +101,22 @@ main img {
 
 
 .dropdown-content {
-    display: none;;
+    display: none;
 }
-
+.dropdown-content.show {
+    display: block;
+    position: relative;
+    top: 15px;
+    overflow: auto;
+}
 .dropbtn {
+    font-family: 'Times New Roman', Times, serif;
     border: none;
     font-size: x-large;
     background-color: transparent;
 }
+
+.dropbtn:hover {
+    color: white;
+}
+
