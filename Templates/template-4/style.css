@@ -118,5 +118,6 @@ main img {
 
 .dropbtn:hover {
     color: white;
+    animation: forwards 0.5s hoverEffect 1 ease-in-out infinite alternate;
 }
 
