@@ -1,16 +1,17 @@
-* {
-    box-sizing: border-box;
-}
+
 
 table {
-    border: 5px solid black;
+    border: 3px solid black;
+    border-spacing: 0px;
 }
 
 table td {
-    border: 5px solid black;
+    text-align: center;
+    border: 3px solid black;
 }
 table th {
-    border: 5px solid black;
+    text-align: center;
+    border: 3px solid black;
 }
 
 body {
@@ -18,6 +19,20 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 
+.stuff {
+    background-color: rgb(91, 255, 91);
+}
+
+
+.am {
+    background-color: yellow;
+}
+
+
+.pm {
+    background-color: rgb(255, 153, 36);
+}
