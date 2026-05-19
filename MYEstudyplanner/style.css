@@ -17,7 +17,9 @@ body {
     background-color: rgb(62, 166, 214);
 }
 
-
+th {
+    background-color: rgb(255, 255, 255);
+}
 
 
 
@@ -57,4 +59,14 @@ h1 {
 
 tr:hover {
     background-color: rgb(255, 255, 255);
+}
+
+.mon {
+    background-color: greenyellow;
+}
+.tue {
+    background-color: rgb(255, 255, 0);
+}
+.wed {
+    background-color: rgb(255, 0, 0);
 }
