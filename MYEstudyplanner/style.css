@@ -4,6 +4,7 @@
     border-collapse: collapse;
     text-align: center;
     background-color: grey;
+    margin: 0px 20vw;
 }
 
 #propertable, th, td{
