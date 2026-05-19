@@ -1,0 +1,60 @@
+
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+table, th, td{
+    border: 3px solid black;
+    border-spacing: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(62, 166, 214);
+}
+
+
+
+
+
+.am1{
+    background-color: rgb(251, 255, 35);
+}
+.am2{
+    background-color: rgb(250, 163, 32);
+}
+
+
+.pm {
+    background-color: rgb(221, 52, 0);
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    border: 5px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: cyan;
+}
+
+.easy { 
+    background-color:  green; 
+} 
+
+.medium { 
+    background-color: orange; 
+} 
+
+.hard { 
+    background-color: red; 
+} 
+
+tr:hover {
+    background-color: rgb(255, 255, 255);
+}
