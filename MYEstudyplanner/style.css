@@ -1,12 +1,12 @@
 
 
-table {
+#propertable {
     border-collapse: collapse;
     text-align: center;
     background-color: grey;
 }
 
-table, th, td{
+#propertable, th, td{
     border: 3px solid black;
     border-spacing: 0px;
 }
@@ -19,7 +19,7 @@ body {
     background-color: rgb(62, 166, 214);
 }
 
-th {
+#propertable th {
     background-color: rgb(255, 255, 255);
 }
 
@@ -33,15 +33,15 @@ h1 {
     border-radius: 10px;
     background-color: cyan;
 }
-.am1{
+#propertable .am1{
     background-color: #752dd2;
 }
-.am2{
+#propertable .am2{
     background-color: #a3418c;
 }
 
 
-.pm {
+#propertable .pm {
     background-color: rgb(221, 52, 0);
 }
 
