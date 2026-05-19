@@ -19,6 +19,14 @@ body {
     background-color: rgb(62, 166, 214);
 }
 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
 #propertable th {
     background-color: rgb(255, 255, 255);
 }
@@ -75,4 +83,17 @@ tr:hover {
     filter: brightness(150%);
     backdrop-filter: brightness(150%);
 
+}
+
+
+#secondarytable th {
+    background-color: rgb(255, 255, 255);
+}
+
+
+#secondarytable {
+    margin-top: 50px;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: grey;
 }
