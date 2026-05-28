@@ -149,16 +149,18 @@ footer {
     margin-bottom: 5em;
 }
 
-#reviews span {
+.cards {
     color: var(--primary-color);
     background-color: var(--accent-color);
     border: 0.1rem solid white;
     border-radius: 0.3rem;
     padding: 20px;
     width: 15vw;
+    position: relative;
 }
 
 #reviews span h3{
+    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -181,8 +183,47 @@ footer {
     margin-top: 1em;
 }
 
-
-.stars {
-    border: #313628 solid;
+.fivestars {
+    position: relative;
+    height: 3em;
+    width: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.outstar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 2em; 
+    /* 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    */
+    width: 1em;
+    height: 1em;
+}
+.instar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     color: yellow;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 1em;
+    width: 1em;
+    height: 1em;
+}
+
+.star {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
