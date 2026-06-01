@@ -160,7 +160,7 @@ footer {
 }
 
 #reviews span h3{
-    margin-top: 0;
+    margin-top: 0.2em;
     margin-bottom: 0;
 }
 
@@ -183,7 +183,7 @@ footer {
     margin-top: 1em;
 }
 
-.fivestars {
+/* .fivestars {
     position: relative;
     height: 3em;
     width: 10em;
@@ -203,22 +203,24 @@ footer {
     left: 50%;
     transform: translate(-50%, -50%);
     */
+    /* width: 1em;
+    height: 1em; */
+/* } */
+/* .instar{
     width: 1em;
     height: 1em;
-}
-.instar{
     display: flex;
     align-items: center;
     justify-content: center;
     color: yellow;
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 2;
-    font-size: 1em;
-    width: 1em;
-    height: 1em;
+ */
+    /* font-size: 1em;
+
 }
 
 .star {
@@ -226,4 +228,22 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+} */ 
+
+
+.mah{
+    width: 100%;
+    height: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: yellow;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+ */
+    font-size: 2em;
+
 }
