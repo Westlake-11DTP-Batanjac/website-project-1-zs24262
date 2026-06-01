@@ -247,3 +247,42 @@ footer {
     font-size: 2em;
 
 }
+
+
+
+#singlepic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65vh;
+    width: 30vw;
+    border: 0.7rem solid var(--primary-color);
+    background-color: white;
+}
+
+
+#para {
+    width: 50vw;
+    color: white;
+    font-size: large;
+}
+
+
+#descmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+    padding: 5em;
+}
+
+
+#macpicsingle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 30vw;
+    border: 0.7rem solid var(--primary-color);
+    background-color: #f5f5f7;
+}
